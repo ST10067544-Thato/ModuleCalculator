@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\ModuleCalculator\\ModuleCalculator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\CustomLibrary\\CustomLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\CustomLibrary\\CustomLibrary.csproj",
+        "projectName": "CustomLibrary",
+        "projectPath": "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\CustomLibrary\\CustomLibrary.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\ModuleCalculator\\ModuleCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\ModuleCalculator\\ModuleCalculator.csproj",
+        "projectName": "ModuleCalculator",
+        "projectPath": "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\ModuleCalculator\\ModuleCalculator.csproj",
+        "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\ModuleCalculator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lab_services_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\CustomLibrary\\CustomLibrary.csproj": {
+                "projectPath": "C:\\Users\\lab_services_student\\Source\\Repos\\prog6212-part-2-ST10067544-Thato\\CustomLibrary\\CustomLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MahApps.Metro.IconPacks": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
